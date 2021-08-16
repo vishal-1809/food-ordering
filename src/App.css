@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px;
+}
+
+.header ul li {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  list-style: none;
+}
+
+.header ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.header ul li:hover {
+  border-bottom: 4px solid white;
+}
+
+.nosign {
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  color: black;
+  font-size: 1.4rem;
+  display: none;
+}
+
+.nosign .signIn {
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.nosign .signIn .emoji {
+  height: 4vh;
+  width: 4vh;
+}
+
+.ordering {
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  color: black;
+  font-size: 1.4rem;
+  display: none;
+}
+
+.ordering .ord {
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.ordering .ord .emoji {
+  height: 2vh;
+  width: 2vh;
+}
+
+.fsign {
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+  color: black;
+  font-size: 1.4rem;
+  display: none;
+}
+
+.fsign .fsignin {
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.fsign .fsignin .emoji {
+  height: 2.5vh;
+  width: 2.5vh;
+}
+
+.logged_in {
+  text-align: center;
+  padding: 10px;
+  display: none;
+}
+
+.logged_in span {
+  background-color: #70eb70;
+  color: green;
+  padding: 20px;
+}
+
+.logout {
+  display: none;
+}
+
+.improper {
+  text-align: center;
+  padding: 10px;
+  display: none;
+}
+
+.improper span {
+  background-color: #f17979;
+  color: red;
+  padding: 20px;
+}
+
+.details {
+  text-align: center;
+  padding: 20px;
+}
+
+.whole {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.whole .container {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.whole label {
+  padding: 10px;
+}
+
+.whole .input {
+  padding: 10px;
+}
+
+.whole .submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-self: center;
+}
+
+.whole .submit button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #01c901;
+  border: 2px solid #01c901;
+  color: white;
+}
+
+.whole .submit button:hover {
+  background-color: white;
+  border: 2px solid #01ca01;
+  color: #01ca01;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.content .box {
+  border: 2px solid black;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.content h2 {
+  text-align: center;
+}
+
+.content h3 {
+  text-align: center;
+}
+
+.content div {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 35vw;
+  margin: 10px;
+}
+
+.content img {
+  height: 26vw;
+  width: 33vw;
+}
+
+.content button {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #01c901;
+  border: 2px solid #01c901;
+  color: white;
+}
+
+.content button:hover {
+  background-color: white;
+  border: 2px solid #01ca01;
+  color: #01ca01;
+}
+
+.content .hrt {
+  height: 6vh;
+  width: 6vh;
+}
+
+.fill {
+  fill: red;
+}
+
+.zero {
+  height: 6vh;
+  width: 6vh;
+  fill: none;
+}
+
+.one {
+  height: 6vh;
+  width: 6vh;
+  fill: red;
+}
+
+@media screen and (max-width: 570px) {
+  .content div {
+    width: 60vw;
+  }
+}
+/*# sourceMappingURL=App.css.map */
